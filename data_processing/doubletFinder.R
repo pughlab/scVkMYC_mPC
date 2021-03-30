@@ -85,9 +85,20 @@ suppressMessages(library(optparse))
 
 # Zheng GXY et al. 2017. A cell titration experiment across six different cell loads showed a linear relationship between 
 # the multiplet rate and the number of recovered cells ranging from 1,200 to 9,500 (Supplementary Fig. 1a).-- based on 
-# version 1 chemistry -- but the point is its linear
+# version 1 chemistry -- but the point is its linear so assuming it can be used for computing doublet rate of other chemistries
 # https://assets.ctfassets.net/an68im79xiti/RT8DYoZzhDJRBMrJCmVxl/6a0ed8015d89bf9602128a4c9f8962c8/CG00052_SingleCell3_ReagentKitv2UserGuide_RevF.pdf
-
+# MultipletRate,RecoveredCells
+# 0.4,500
+# 0.8,1000
+# 1.6,2000
+# 2.3,3000
+# 3.1,4000
+# 3.9,5000
+# 4.6,6000
+# 5.4,7000
+# 6.1,8000
+# 6.9,9000
+# 7.6,10000
 
 predictDoubletRate <- function(object) {
   n.cells <- ncol(object)
