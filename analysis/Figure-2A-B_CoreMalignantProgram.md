@@ -418,6 +418,8 @@ Heatmap(t(genes_scaled), name = "Scaled",
 
 ```
 
+# Figure 2B
+
 ### GSEA results 
 
 ```{r}
