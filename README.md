@@ -1,4 +1,4 @@
-## Single-cell analysis of myeloma mouse model identifies early emergence of subclonal molecular programs and activation of a novel conserved stress response pathway associated with progression
+## Single-cell analysis of myeloma mouse model identifies subclonal molecular programs associated with progression
 
 This repository contains the analysis scripts and code used to generates figures in Croucher et al. (2021).
 
